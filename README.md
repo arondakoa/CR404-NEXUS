@@ -5,29 +5,55 @@
 <h1 align="center">CR404 NEXUS</h1>
 
 <p align="center">
-  <strong>Eine Super-App. Fünf Geschäfte. Ein Schaltpult.</strong><br>
-  Öffentliches Dossier für Kunden und Investoren. Kein Quellcode.
+  <strong>Automatisierung, die fragt, bevor sie Geld kostet.</strong><br>
+  Fünf Geschäfte. Ein Cockpit. Jedes Modul auch einzeln.
 </p>
 
 <p align="center">
-  <a href="#warum-das-haelt">Warum das hält</a> ·
+  <img alt="Status: Produkt-Dossier" src="https://img.shields.io/badge/Status-Produkt--Dossier-d6aa5c?style=flat-square&labelColor=0c0c0e">
+  <img alt="Code: privat" src="https://img.shields.io/badge/Code-privat-8c867e?style=flat-square&labelColor=0c0c0e">
+  <img alt="Lizenz: Alle Rechte vorbehalten" src="https://img.shields.io/badge/Lizenz-Alle%20Rechte%20vorbehalten-e87848?style=flat-square&labelColor=0c0c0e">
+  <img alt="Stand: Oktober 2026" src="https://img.shields.io/badge/Stand-Oktober%202026-8c867e?style=flat-square&labelColor=0c0c0e">
+</p>
+
+<p align="center">
+  <a href="#in-30-sekunden">In 30 Sekunden</a> ·
+  <a href="#sieh-selbst">Demos</a> ·
   <a href="#die-fuenf">Die fünf</a> ·
   <a href="#einzeln">Einzeln kaufbar</a> ·
+  <a href="#inventur">Was steht</a> ·
   <a href="#kapital">Wohin Kapital geht</a> ·
   <a href="docs/INVESTORS.en.md">English</a>
 </p>
 
 ---
 
-Die Bilder in diesem Repository sind **Markenstills**, keine Screenshots.
-Sie zeigen die Haltung des Produkts, nicht eine vorgetäuschte Oberfläche.
-Die Implementierung liegt in privaten Arbeitsrepos und wird hier absichtlich nicht mitgeliefert.
+## In 30 Sekunden
 
-Wer NEXUS in einer Minute verstehen will, liest nur diesen Absatz:
+**Das Problem.** Wer ein kleines Geschäft automatisieren will, landet bei zwölf Abos und einem Bot, dem er nicht traut.
+Shop hier, Trading-Tool da, ein KI-Agent, der nachts irgendetwas tut. Niemand sieht die Gesamtzahl. Niemand hat den Not-Aus.
 
-> CR404 NEXUS ist das Betriebssystem für kleine, automatisierbare Geschäfte.
-> Handel, Laden, Wächter, App-Fabrik und Studio hängen an einem Cockpit.
-> Jedes Modul ist ein eigenes Produkt. Zusammen rechnen sie auf eine Kasse.
+**Die Antwort.** CR404 NEXUS ist das Betriebssystem für kleine, automatisierbare Geschäfte.
+Laden, Markt-Desk, Wächter, App-Fabrik und Studio hängen an **einem Cockpit** und rechnen auf **eine Kasse**.
+
+**Der Unterschied.** Alles, was Geld oder Ruf kosten kann, ist bei uns ein **Entwurf, bis ein Mensch freigibt**: Listings, Deploys, Echtgeld-Orders.
+Für einen vorsichtigen Kunden ist das kein fehlendes Feature. Es ist der Grund, warum er überhaupt einsteigt.
+
+<p align="center">
+  <img src="media/demo/dagobert-backtest-demo.gif" alt="Dagobert Market: Taktik-Backtest im Simulationsmodus, beschriftet als Demo-Daten" width="100%">
+  <br><sub>Dagobert Market, Taktik-Backtest. <b>Simulation mit Demo-Daten</b>, keine Renditeaussage. <a href="media/demo/dagobert-backtest-demo.mp4">MP4 in HD</a></sub>
+</p>
+
+---
+
+## Sieh selbst
+
+Zeigen statt behaupten. Beide Clips laufen im Simulationsmodus des Cockpits, die Zahlen sind Beispielwerte und im Bild dauerhaft so beschriftet.
+
+| Tante Emma: vom Fund zum freigegebenen Listing | Dagobert Market: erst Papier, dann Freigabe |
+| --- | --- |
+| <img src="media/demo/tante-emma-desk-demo.gif" alt="Tante Emma B2B-Desk mit Freigabe, Demo-Daten" width="100%"> | <img src="media/demo/dagobert-backtest-demo.gif" alt="Dagobert Backtest, Demo-Daten" width="100%"> |
+| Artikel finden, Marge sehen, Mensch gibt frei, Bestellungen laufen in die Kasse. [MP4](media/demo/tante-emma-desk-demo.mp4) | Taktik gegen Buy-and-Hold, Drawdown sichtbar, Echtgeld verriegelt. [MP4](media/demo/dagobert-backtest-demo.mp4) |
 
 <p align="center">
   <img src="media/constellation.jpg" alt="Sechs Teile, eine Mitte" width="100%">
@@ -43,8 +69,8 @@ NEXUS ist anders geschnitten: **die Grenzen sind schon Repos.**
 | | |
 | --- | --- |
 | **Suite oder Einzelstück** | Ein Händler nimmt Tante Emma und lässt den Krypto-Desk liegen. Ein Builder nimmt nur Forge. Die Suite ist das Upsell, nicht die Eintrittskarte. |
-| **Eine Kasse** | Was die Module verdienen, ist im Cockpit als eine Treasury gedacht. Heute als ehrliches Modell. Morgen als echte Buchung, sobald ein Mandant und eine Lizenzfrage geklärt sind. |
-| **Der Mensch bleibt im Loop** | Listings, Deploys und Echtgeld-Orders sind Entwürfe, bis jemand freigibt. Das ist kein fehlendes Feature. Das ist der Grund, warum ein vorsichtiger Kunde das überhaupt anfasst. |
+| **Eine Kasse** | Was die Module verdienen, landet im Cockpit in einer Treasury. Heute als ehrliches Modell. Morgen als echte Buchung, sobald Mandant und Lizenzfrage geklärt sind. |
+| **Der Mensch bleibt im Loop** | Listings, Deploys und Echtgeld-Orders sind Entwürfe, bis jemand freigibt. Vertrauen ist hier das Feature. |
 | **Keys sind optional** | Das Cockpit läuft ohne API-Schlüssel. Schlüssel schalten Live-Kurse, Börsen-Guthaben und die KI frei. Sie sind nicht die Krücke, an der alles hängt. |
 | **Kein stiller Bot mit Kundengeld** | Dagobert ist ein Entscheidungs- und Simulationscockpit. Echtgeld sitzt hinter einem Gate. Schlüssel gehören auf den Server, nie in den Browser. |
 
@@ -53,10 +79,9 @@ Der Reiz ist ein **Baukasten mit eigenen Märkten**, der sich Modul für Modul f
 
 ---
 
-## Die fünf
+<a id="die-fuenf"></a>
 
-Kurz. Danach jeder Teil so, dass man ihn auch ohne die anderen versteht.
-Ausführlicher, falls du es jemandem schickst, der nur ein Modul will: die Seiten unter [`docs/`](docs/).
+## Die fünf
 
 | Modul | In einem Satz | Allein lebensfähig | Heute |
 | --- | --- | --- | --- |
@@ -64,9 +89,11 @@ Ausführlicher, falls du es jemandem schickst, der nur ein Modul will: die Seite
 | [Tante Emma](#tante-emma) | Der Laden. B2C-Shop und B2B-Dropshipping mit Freigabe. | Ja | Fläche und Modell stehen, Marktplätze sind Skelette |
 | [Dagobert Market](#dagobert-market) | Der Desk. Signale, Paper-Trade, Backtest. Krypto zuerst. | Ja | Dashboard läuft, Echtgeld ist verriegelt |
 | [Forge](#forge) | Die Fabrik. Aus einem Satz wird eine lauffähige App. | Ja | Pipeline baut, testet und committet lokal |
-| [Music Video Studio](#music-video-studio) | Das Studio. Track, Bild, Clip — aus einem Prompt. | Ja, sobald der Generator steht | Platz im Cockpit, Generator ist der nächste Bau |
+| [Music Video Studio](#music-video-studio) | Das Studio. Track, Bild, Clip aus einem Prompt. | Ja, sobald der Generator steht | Platz im Cockpit, Generator ist der nächste Bau |
 
-Dazu, leiser, aber schon geschnitten: **AL Messenger** (Chat für Shop, Support und Agenten), die **B2B-Arbitrage-Engine** (Discovery, SEO, Freigabe vor dem Listing) und **CR404 Shops** (die Verkaufsseiten, aus denen Tante Emma das Sortiment zieht). Sie sind Zulieferer der fünf, keine sechste Story. Wer sie einzeln will, kann sie einzeln haben. Siehe [Einzeln](#einzeln).
+Dazu, leiser, aber schon geschnitten: **AL Messenger** (Chat für Shop, Support und Agenten), die **B2B-Arbitrage-Engine** (Discovery, SEO, Freigabe vor dem Listing) und **CR404 Shops** (die Verkaufsseiten, aus denen Tante Emma das Sortiment zieht). Sie sind Zulieferer der fünf, keine sechste Story.
+
+Ausführlich, für jemanden, der nur ein Modul will: die Seiten unter [`docs/`](docs/).
 
 ---
 
@@ -76,23 +103,14 @@ Dazu, leiser, aber schon geschnitten: **AL Messenger** (Chat für Shop, Support 
   <img src="media/robocop.jpg" alt="RoboCop404 — der Wächter" width="100%">
 </p>
 
-RoboCop404 ist nicht der Film und nicht ein Mensch in Rüstung.
-Es ist der Operator, der aufpasst, während der Rest arbeitet.
+**Teams, die Agenten laufen lassen, kaufen nicht „mehr Intelligenz“. Sie kaufen jemanden, der den Stecker zieht.**
 
-**Was er tut**
+- Übernimmt Strategien, die woanders entworfen wurden, etwa aus dem Taktik-Regal von Dagobert, und lässt sie in einer Schleife laufen.
+- Start und Stopp. Kippt das Risiko, zieht er den **Circuit Breaker**. Lieber still als teuer.
+- Darunter ein regelbasiertes Security-Modul ohne Sprachmodell und ohne externe Abhängigkeit: System- und Secret-Audit (nur lesen), Stacktrace-Analyse mit Empfehlung, Deployment nur als **Entwurf**.
 
-- Nimmt Strategien entgegen, die woanders entworfen wurden — zum Beispiel aus dem Taktik-Regal von Dagobert — und lässt sie in einer Schleife weiterlaufen.
-- Kann gestartet und gestoppt werden. Wenn das Risiko kippt, zieht er den **Circuit Breaker**. Lieber still als teuer.
-- Darunter liegt ein kleines, regelbasiertes Security-Modul ohne Sprachmodell und ohne externe Abhängigkeit: System- und Secret-Audit (nur lesen), Stacktrace-Analyse mit Empfehlung, Deployment nur als **Entwurf**. Ausrollen braucht eine Freigabe.
-
-**Warum das ein Produkt ist**
-
-Teams, die Agenten laufen lassen, kaufen nicht „mehr Intelligenz“.
-Sie kaufen jemanden, der den Stecker zieht.
-Allein verkauft ist RoboCop404 ein Ops-Modul: Audit, Debug-Hinweis, Deploy-Entwurf, Not-Aus.
-In der Suite ist er das Schloss an Dagobert, Forge und dem Shop.
-
-Ausführlich: [`docs/robocop.md`](docs/robocop.md)
+Allein ist RoboCop404 ein Ops-Modul. In der Suite ist er das Schloss an Dagobert, Forge und dem Shop.
+→ [`docs/robocop.md`](docs/robocop.md)
 
 ---
 
@@ -102,34 +120,19 @@ Ausführlich: [`docs/robocop.md`](docs/robocop.md)
   <img src="media/tante-emma.jpg" alt="Tante Emma — Laden und B2B" width="100%">
 </p>
 
-Tante Emma ist der Laden an der Ecke, der nebenbei Großhandel kann.
-Zwei Geschäfte, eine Theke.
+**Der Laden an der Ecke, der nebenbei Großhandel kann.** Zwei Geschäfte, eine Theke.
 
-**B2C — der Shop**
+- **B2C:** Sortiment, Warenkorb, Kasse, Bestellhistorie. Verkaufen, ohne eine Agentur für einen Warenkorb zu bezahlen.
+- **B2B und Dropshipping:** Artikel finden, Einkauf gegen Verkauf legen, Marge sehen, SEO-Text erzeugen, Listing-Vorschau, Bestellung, Tracking, Kasse.
+- **Marktplätze als Richtung:** Amazon, eBay, Shopify, Etsy, Kaufland. **Immer über offizielle APIs. Immer mit menschlicher Freigabe vor dem Listing.**
 
-Sortiment, Warenkorb, Kasse, Bestellhistorie.
-Der klassische Verkauf, den ein lokaler Händler ohne Agentur anfassen kann.
+<p align="center">
+  <img src="media/demo/tante-emma-desk-demo.gif" alt="Tante Emma B2B-Desk, Simulation mit Demo-Daten" width="100%">
+  <br><sub>Simulation mit Beispielartikeln und Beispielzahlen. Kein Umsatznachweis.</sub>
+</p>
 
-**B2B und Dropshipping — der Desk dahinter**
-
-- Artikel finden: Trend, günstig, oder nach Vorgabe.
-- Einkauf gegen Verkauf legen, Marge sehen, Status führen.
-- SEO-Text dazu: Titel, Beschreibung, Keywords. Regelbasiert, bei Bedarf mit KI geschärft.
-- Vorschau des Listings, bevor es irgendwo öffentlich wird.
-- Bestellung, Tracking, Kasse.
-- Marktplatz-Anschluss als Richtung: Amazon, eBay, Shopify, Etsy, Kaufland. **Immer über offizielle APIs. Immer mit menschlicher Freigabe vor dem Listing.**
-
-Der Gewinn, den der Shop als verkauft oder versandt markiert, ist im NEXUS-Cockpit der gemeinsamen Treasury zugeordnet.
-Ohne NEXUS ist Tante Emma trotzdem ein eigener Shop mit eigenem B2B-Desk und angeschlossenem Messenger für Support.
-
-**Ehrlich zum Stand**
-
-Die Fläche und das Produktmodell stehen: Finder, Artikel, Vergleich, Bestellungen, Tracking, Kasse, lokaler Shop, Setup.
-Katalog, Warenkorb und SEO sind als Backend angelegt.
-Die Marktplatz-Publisher sind Skelette, kein stiller Autopilot, der nachts auf Amazon listet.
-Genau das will ein vernünftiger Händler auch nicht, bevor er die Freigabe gesehen hat.
-
-Ausführlich: [`docs/tante-emma.md`](docs/tante-emma.md)
+**Ehrlich zum Stand:** Finder, Artikel, Vergleich, Bestellungen, Tracking, Kasse und lokaler Shop stehen. Katalog, Warenkorb und SEO sind als Backend angelegt. Die Marktplatz-Publisher sind Skelette, kein Autopilot, der nachts auf Amazon listet. Genau das will ein vernünftiger Händler auch nicht.
+→ [`docs/tante-emma.md`](docs/tante-emma.md)
 
 ---
 
@@ -139,27 +142,15 @@ Ausführlich: [`docs/tante-emma.md`](docs/tante-emma.md)
   <img src="media/dagobert-market.jpg" alt="Dagobert Market — der Desk" width="100%">
 </p>
 
-Dagobert Market ist der Schreibtisch für Märkte.
-Zuerst Krypto. Daneben der Blick auf Aktien, Rohstoffe, Forex und Edelmetalle.
+**Eine Meinung zum Markt, bevor man eine Order will.** Krypto zuerst, daneben Aktien, Rohstoffe, Forex, Edelmetalle.
 
-**Was auf dem Tisch liegt**
+- **Signale** mit Begründung, kein Ampel-Kult. Marktübersicht, Charts, Indikatoren.
+- **Paper-Trade:** Startkapital, Orders, Positionen, Gewinn und Verlust. Alles auf Papier, sofort benutzbar.
+- **Taktiken:** SMA, EMA, RSI, MACD, Bollinger, Momentum, Grid und Kombinationen. Jede mit Backtest gegen Buy-and-Hold und Equity-Kurve. Was besteht, geht an RoboCop404.
+- **Daten:** CoinGecko ohne Schlüssel, FRED für Makro, Kraken und Binance nur lesend und nur serverseitig. KI nur über das Backend.
 
-- Signale: kaufen, halten, verkaufen. Mit Begründung, nicht mit einem Ampel-Kult.
-- Marktübersicht und Charts, technische Indikatoren.
-- Portfolio und Paper-Trade. Simulation, bevor irgendjemand echtes Geld anfasst.
-- Eine Bibliothek von Taktiken: SMA, EMA, RSI, MACD, Bollinger, Momentum, Grid und Kombinationen. Jede lässt sich backtesten — Rendite, Anzahl Trades, gegen Buy-and-Hold, Equity-Kurve — und an RoboCop übergeben.
-- KI-Analyse nur über ein Backend. Der Schlüssel liegt nie im Browser.
-- Wallet-Anbindung lesend: CoinGecko ohne Schlüssel, FRED für Makro, Kraken und Binance nur für Guthaben, nur serverseitig.
-
-**Was es nicht ist**
-
-Keine Börse. Kein Broker. Keine Lizenzbehauptung. Keine Rendite.
-Echtgeld-Orders laufen nur, wenn ein eigener serverseitiger Endpunkt hinterlegt ist **und** der Handel ausdrücklich bestätigt wurde.
-Ohne Netzwerk fällt der Desk auf Beispieldaten zurück und bleibt bedienbar.
-Allein ist Dagobert ein Entscheidungs- und Simulationscockpit für Leute, die eine Meinung zum Markt wollen, bevor sie eine Order wollen.
-In der Suite ist er der Marktarm, dessen Papiergewinne die Treasury als Modell kennt — nicht als versprochenes Vermögen.
-
-Ausführlich: [`docs/dagobert-market.md`](docs/dagobert-market.md)
+**Was es nicht ist:** keine Börse, kein Broker, keine Lizenzbehauptung, keine Rendite. Echtgeld-Orders laufen nur über einen eigenen serverseitigen Endpunkt **und** nach ausdrücklicher Bestätigung.
+→ [`docs/dagobert-market.md`](docs/dagobert-market.md)
 
 ---
 
@@ -169,32 +160,18 @@ Ausführlich: [`docs/dagobert-market.md`](docs/dagobert-market.md)
   <img src="media/forge.jpg" alt="Forge — die App-Fabrik" width="100%">
 </p>
 
-Forge baut Software auf Zuruf.
-Nicht als Folie. Als Projekt.
-
-Fünf Rollen, eine Pipeline:
+**Software auf Zuruf. Nicht als Folie, als Projekt.**
 
 | Rolle | Aufgabe |
 | --- | --- |
 | **Architect** | Aus dem Satz wird Struktur und Stack. |
-| **Builder** | Frontend und Backend. Echte Routen, nicht eine Attrappe. |
+| **Builder** | Frontend und Backend. Echte Routen, keine Attrappe. |
 | **Styler** | Layout, das man anfassen kann. |
 | **Tester** | Startet, was gebaut wurde, und prüft, ob es antwortet. |
-| **Shipper** | Legt ein lokales Git-Commit. Push nur, wenn es jemand ausdrücklich sagt. |
+| **Shipper** | Lokales Git-Commit. Push nur auf ausdrücklichen Befehl. |
 
-Forge kennt die Geschwister als Vorlagen: AL Messenger, Tante Emma, Music Video Studio, eine schlichte Landingpage.
-Es kann sie anfassen, anpassen und als neues Projekt ausgeben.
-
-**Ehrlich zum Stand**
-
-Ein Auftrag wie „bau eine Landingpage für …“ erzeugt lauffähigen Code, startet das generierte Backend und committet lokal.
-Der Styler hat noch ein festes Theme, nicht eines pro Auftrag.
-Der Push in ein echtes Remote ist bewusst aus. Nichts veröffentlicht sich selbst.
-
-Allein ist Forge eine App-Fabrik für Leute, die aus einem Satz eine Fläche wollen, die wirklich hochfährt.
-In der Suite ist Forge die Werkbank, die neue Module in dieselbe Familie legt, ohne die Namen der anderen zu zertrampeln.
-
-Ausführlich: [`docs/forge.md`](docs/forge.md)
+**Ehrlich zum Stand:** „Bau eine Landingpage für …“ erzeugt lauffähigen Code, startet das Backend und committet lokal. Der Styler hat noch ein festes Theme. Nichts veröffentlicht sich selbst.
+→ [`docs/forge.md`](docs/forge.md)
 
 ---
 
@@ -204,24 +181,10 @@ Ausführlich: [`docs/forge.md`](docs/forge.md)
   <img src="media/musicvideo-studio.jpg" alt="Music Video Studio" width="100%">
 </p>
 
-Das Studio ist der kreative Arm.
-Ein Prompt wird Track, Loop oder Stem. Dazu Bild: Visualizer, Lyric-Video, Clip.
+**Ton und Bild aus einem Auftrag, nicht aus zwölf Abos.** Track, Loop, Stem, dazu Visualizer, Lyric-Video, Clip.
 
-Im Cockpit hat es schon einen Platz. Streams und ein RPM-Umsatz sind als Modell an die gemeinsame Kasse gehängt, damit man sehen kann, wie ein Kreativgeschäft in derselben Bilanz sitzt wie Shop und Desk.
-Das ist eine Produktentscheidung, kein belegter Katalog und keine Stream-Zahl.
-
-**Was es werden soll, allein**
-
-Ein Studio für Creator und kleine Labels: Musik und Bild aus einem Auftrag, Warteschlange für die schweren Jobs, Ablage lokal oder S3-kompatibel.
-Forge kann das Studio als Vorlage ausliefern. NEXUS muss dafür nicht an sein.
-
-**Ehrlich zum Stand**
-
-Architektur und der Platz im Cockpit stehen.
-Die Generator-Anbindung ist der nächste Bauabschnitt, nicht ein fertiger Knopf.
-Wer heute investiert, investiert in die Strecke vom Prompt zur Datei — nicht in einen vorgetäuschten Hit.
-
-Ausführlich: [`docs/musicvideo-studio.md`](docs/musicvideo-studio.md)
+**Ehrlich zum Stand:** Architektur und Platz im Cockpit stehen. Die Generator-Anbindung ist der nächste Bauabschnitt. Wer heute investiert, investiert in die Strecke vom Prompt zur Datei, nicht in einen vorgetäuschten Hit.
+→ [`docs/musicvideo-studio.md`](docs/musicvideo-studio.md)
 
 ---
 
@@ -240,46 +203,26 @@ Man muss die Suite nicht wollen.
 | Nur Produktsuche, SEO, Listing-Freigabe | B2B-Arbitrage | den Laden drumherum |
 | Nur die Verkaufsseiten | CR404 Shops | den B2B-Desk |
 
-Jedes Modul hat einen eigenen Namensraum. Sie beißen sich nicht, wenn man sie später doch zusammensteckt.
-Der Kleber in der Suite ist langweilig und genau deshalb richtig: ein gemeinsamer Zustand, ein Event-Bus, eine Treasury, ein Schalter pro Modul.
-
-Wie die Übergabe gedacht ist, ohne Code zu zeigen: [`docs/standalone.md`](docs/standalone.md)
+Jedes Modul hat einen eigenen Namensraum. Der Kleber in der Suite ist bewusst langweilig: ein gemeinsamer Zustand, ein Event-Bus, eine Treasury, ein Schalter pro Modul.
+→ [`docs/standalone.md`](docs/standalone.md)
 
 ---
 
-## Was ein Kunde kauft
+## Wer kauft
 
-Keine Zeilen. Eine Arbeit, die er heute von Hand oder von fünf Tools macht.
-
-- **Der Händler** sucht Artikel, rechnet Marge, schreibt Texte, scheut sich, blind zu listen. Tante Emma legt ihm die Vorschau hin und wartet.
-- **Der Trader** will eine Meinung, einen Backtest und einen Not-Aus, bevor er eine Börse anfasst. Dagobert plus RoboCop.
-- **Die Agentur oder der Gründer** will aus einem Satz eine Fläche, die hochfährt. Forge.
-- **Der Creator** will Ton und Bild aus einem Auftrag, nicht aus zwölf Abos. Das Studio, sobald die Generatoren stehen.
-- **Der Betreiber** will alles auf einem Schirm und eine Zahl, die sagt, was die Teile zusammen tragen. Das ist NEXUS.
+- **Der Händler** will Marge sehen und nicht blind listen. → Tante Emma.
+- **Der Trader** will Meinung, Backtest und Not-Aus, bevor er eine Börse anfasst. → Dagobert plus RoboCop404.
+- **Die Agentur oder der Gründer** will aus einem Satz eine Fläche, die hochfährt. → Forge.
+- **Der Creator** will Ton und Bild aus einem Auftrag. → Studio, sobald die Generatoren stehen.
+- **Der Betreiber** will alles auf einem Schirm und eine Zahl, die sagt, was die Teile zusammen tragen. → NEXUS.
 
 ---
 
-## Kapital
+## Inventur
 
-Dieses Repository ist kein Term Sheet und keine Runde.
-Es ist die Landkarte, worauf Geld arbeiten würde.
+Nicht als Versprechen. Als Bestandsliste.
 
-1. **Tante Emma zu Ende bringen.** Von der stehenden Fläche zu echten, freigabepflichtigen Marktplatz-Verbindungen. Ein Händler, ein Marktplatz, ein Listing, das ein Mensch gesehen hat. Dann der zweite.
-2. **Dagobert sauber halten.** Bessere Daten, nachvollziehbare Backtests, das Echtgeld-Gate juristisch und technisch langweilig machen. Nicht „wir traden Kundengeld“.
-3. **Forge wiederholbar machen.** Ein Theme pro Auftrag. Eine Auslieferung, die ein Kunde ohne den Autor starten kann.
-4. **Studio: Prompt zu Datei.** Eine Generator-Strecke, eine Warteschlange, eine Ablage. Ein Clip, den man abspielt.
-5. **NEXUS: ein Mandant.** Login, echte Kasse, getrennte Kunden. Heute ist das Cockpit lokal, offline-fähig und ehrlich simulierbar. Der Sprung ist nicht mehr Architektur. Der Sprung ist Betrieb.
-
-Wer nur ein Modul finanzieren will, kann das. Die Repos sind schon getrennt.
-Wer die Hülle finanziert, finanziert den Kleber und die Kasse, nicht noch einmal jedes Geschäft.
-
----
-
-## Was heute schon steht
-
-Nicht als Versprechen. Als Inventur.
-
-- Ein Browser-Cockpit für NEXUS: Launcher, Treasury, Wallet, Ideen-Cockpit, Autopilot als Simulation, alle Module anklickbar.
+- Browser-Cockpit für NEXUS: Launcher, Treasury, Wallet, Ideen-Cockpit, Autopilot als Simulation, alle Module anklickbar.
 - Neun fachliche Agenten im Kern: Nischen, Startups, Bitcoin-Signal, Rohstoffe, Portfolio, Datenbündelung, Code-Qualität, Security-Scan, Affiliate- und B2B-Entwürfe. Reports als JSON und Markdown. Ein Agent, der scheitert, reißt den Lauf nicht mit.
 - RoboCop404 als Fläche plus regelbasiertes Security-Modul mit Freigabe vor dem Deploy.
 - Tante Emma als Shop- und B2B-Fläche, Backend angelegt, Messenger angedockt.
@@ -288,34 +231,54 @@ Nicht als Versprechen. Als Inventur.
 - AL Messenger als eigenständiger Chat mit Räumen, Presence und WebSocket-Hub.
 - Music Video Studio als Architektur und Cockpit-Platz.
 
-Was nicht steht, steht oben bei jedem Modul. Es wird hier nicht weichgezeichnet.
+| Noch Skelett | Warum das okay ist |
+| --- | --- |
+| Marktplatz-Publisher (Tante Emma) | Erst ein Händler, ein Marktplatz, ein freigegebenes Listing. Dann skalieren. |
+| Studio-Generator | Die Strecke Prompt → Datei ist der nächste Bau, nicht ein Knopf. |
+| Mandanten-Kasse (NEXUS) | Heute lokal und ehrlich simulierbar. Der Sprung ist Betrieb, nicht Architektur. |
 
 ---
 
-## Was bewusst nicht in diesem Repo liegt
+## Kapital
 
-Kein Anwendungscode. Keine Abhängigkeiten. Keine Schlüssel. Keine `.env`.
-Keine Kopie der Arbeitsrepos.
+Dieses Repository ist kein Term Sheet und keine Runde. Es ist die Landkarte, worauf Geld arbeiten würde.
 
-Dieses Verzeichnis ist die öffentliche Fläche: Texte, Stills, die Karte.
-Zugang zur Implementierung gibt es im Gespräch, nicht über einen öffentlichen Klon.
-Die privaten Arbeitsrepos bleiben die Werkstatt. Dieses Repo bleibt das Schaufenster.
+1. **Tante Emma zu Ende bringen.** Ein Händler, ein Marktplatz, ein Listing, das ein Mensch gesehen hat. Dann der zweite.
+2. **Dagobert sauber halten.** Bessere Daten, nachvollziehbare Backtests, das Echtgeld-Gate juristisch und technisch langweilig machen.
+3. **Forge wiederholbar machen.** Ein Theme pro Auftrag. Eine Auslieferung, die ein Kunde ohne den Autor startet.
+4. **Studio: Prompt zu Datei.** Eine Generator-Strecke, eine Warteschlange, eine Ablage. Ein Clip, den man abspielt.
+5. **NEXUS: ein Mandant.** Login, echte Kasse, getrennte Kunden.
+
+Wer nur ein Modul finanzieren will, kann das. Die Repos sind schon getrennt.
+Wer die Hülle finanziert, finanziert den Kleber und die Kasse, nicht noch einmal jedes Geschäft.
+
+---
+
+## Was bewusst nicht hier liegt
+
+Kein Anwendungscode. Keine Abhängigkeiten. Keine Schlüssel. Keine `.env`. Keine Kopie der Arbeitsrepos.
+Dieses Repo ist das Schaufenster. Die Werkstatt bleibt privat. Zugang zur Implementierung gibt es im Gespräch.
 
 ---
 
 ## Gespräch
 
-GitHub: [@arondakoa](https://github.com/arondakoa)
-
-Englisch, kürzer, für jemanden der nicht auf Deutsch liest: [`docs/INVESTORS.en.md`](docs/INVESTORS.en.md)
+Investoren, Händler, Partner: **[@arondakoa](https://github.com/arondakoa)** auf GitHub.
+Englische Kurzfassung: [`docs/INVESTORS.en.md`](docs/INVESTORS.en.md)
 
 ---
+
+## Rechte
+
+© 2026 arondakoa (CR404). **Alle Rechte vorbehalten.** Keine Open-Source-Lizenz.
+Ansehen und verlinken ja. Kopieren, Weiterverwenden, Nachbauen der Texte, Bilder und Videos oder Nutzung der Produktnamen nur mit schriftlicher Zustimmung. Text- und Data-Mining sowie KI-Training sind vorbehalten.
+Volltext: [`LICENSE`](LICENSE) · Hinweise: [`NOTICE.md`](NOTICE.md)
 
 <sub>
 
 Kein Angebot von Wertpapieren. Keine Anlageberatung. Keine Einladung, Geld zu überweisen.
-Handel und Krypto können auf null gehen. Ob ein Modul eine Erlaubnis braucht, hängt vom Land ab und davon, ob fremdes Geld bewegt wird. Stand dieses Dossiers ist Dagobert ein Simulations- und Entscheidungskockpit mit gesperrtem Echtgeld-Pfad.
-Markenstills sind Stimmung, nicht die ausgelieferte Oberfläche.
+Handel und Krypto können auf null gehen. Ob ein Modul eine Erlaubnis braucht, hängt vom Land ab und davon, ob fremdes Geld bewegt wird. Stand dieses Dossiers ist Dagobert ein Simulations- und Entscheidungscockpit mit gesperrtem Echtgeld-Pfad.
+Demo-Videos zeigen Beispieldaten im Simulationsmodus. Markenstills sind Stimmung, nicht die ausgelieferte Oberfläche.
 RoboCop404 ist ein eigener Produktname und kein Bezug auf einen Film.
 
 </sub>

@@ -4,6 +4,8 @@ English, short. The full argument is the [German README](../README.md).
 
 ![The cockpit](../media/nexus-cockpit.jpg)
 
+**Automation that asks before it costs money.**
+
 **CR404 NEXUS is an operating system for small, automatable businesses.**
 Trading, commerce, a guardian, an app foundry and a studio share one cockpit.
 Each piece is a product on its own. Together they are designed to land in one treasury.
@@ -11,6 +13,14 @@ Each piece is a product on its own. Together they are designed to land in one tr
 This repository is a public dossier. It contains **no source code**.
 The pictures are brand stills, not screenshots of the shipped UI.
 Implementation stays in private working repositories and is shown in conversation, not by cloning this repo.
+
+## See it
+
+Both clips run in the cockpit's simulation mode. All figures are demo data and labelled as such on screen.
+
+| Tante Emma: from find to approved listing | Dagobert Market: paper first, then approval |
+| --- | --- |
+| ![Tante Emma demo](../media/demo/tante-emma-desk-demo.gif) | ![Dagobert demo](../media/demo/dagobert-backtest-demo.gif) |
 
 ## The five
 
@@ -54,3 +64,5 @@ Trading can go to zero. Whether a module needs a license depends on the country 
 As of this dossier, Dagobert is a decision and simulation cockpit with live trading locked.
 
 GitHub: [@arondakoa](https://github.com/arondakoa)
+
+© 2026 arondakoa (CR404). All rights reserved. No open-source license; text and data mining and AI training reserved. See [`LICENSE`](../LICENSE).

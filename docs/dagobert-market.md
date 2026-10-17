@@ -2,6 +2,10 @@
 
 ![Dagobert Market](../media/dagobert-market.jpg)
 
+![Demo](../media/demo/dagobert-backtest-demo.gif)
+
+<sub>Taktik-Backtest im Simulationsmodus. Demo-Daten, keine Renditeaussage. [MP4](../media/demo/dagobert-backtest-demo.mp4)</sub>
+
 Der Schreibtisch für Märkte.
 Krypto zuerst. Aktien, Rohstoffe, Forex und Edelmetalle im selben Blick.
 

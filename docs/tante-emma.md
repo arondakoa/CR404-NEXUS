@@ -2,6 +2,10 @@
 
 ![Tante Emma](../media/tante-emma.jpg)
 
+![Demo](../media/demo/tante-emma-desk-demo.gif)
+
+<sub>B2B-Desk im Simulationsmodus. Beispielartikel und Beispielzahlen. [MP4](../media/demo/tante-emma-desk-demo.mp4)</sub>
+
 Der Laden. Lokal im Gefühl, B2B in der Mechanik.
 Dropshipping und Großhandel, ohne den Menschen aus der Freigabe zu nehmen.
 
